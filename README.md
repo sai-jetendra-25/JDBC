@@ -142,7 +142,7 @@ Result after Update (SET id=2,WHERE id=3)
 ---
 
 ### 4. Select / Read Data (`SelectApp.java`)
-```
+
 **Console Output:**
 ```
 Connected successfully!
@@ -150,8 +150,6 @@ Connected successfully!
 2 kirsh 19 Hyderabad
 4 Ravi 17 Hyderabad
 ```
-```
-
 
 ### ✨ Key Features
 
