@@ -113,7 +113,7 @@ con.close();
 
 ---
 
-### 🗑️ Delete Data (`DeleteApp.java`)
+### 2.Delete Data (`DeleteApp.java`)
 
 **Result after Delete (Id=2 removed):**
 
@@ -125,11 +125,11 @@ con.close();
 
 ---
 
-### ✏️ Update Data (`UpdateApp.java`)
+### 3.Update Data (`UpdateApp.java`)
 
 Update studnet set id=2 WHERE id=3
+Result after Update (SET id=2,WHERE id=3)
 
-**Result after Update (SET id=2,WHERE id=3):**
 **Result in MySQL Workbench:**
 ---
 
@@ -141,7 +141,7 @@ Update studnet set id=2 WHERE id=3
 
 ---
 
-### 🔍 Select / Read Data (`SelectApp.java`)
+### 4. Select / Read Data (`SelectApp.java`)
 ```
 **Console Output:**
 ```
@@ -150,9 +150,10 @@ Connected successfully!
 2 kirsh 19 Hyderabad
 4 Ravi 17 Hyderabad
 ```
+```
 
 
-## ✨ Key Features
+### ✨ Key Features
 
 - 🔌 **MySQL Connection** — Connects Java to MySQL database using JDBC Driver
 - ➕ **Insert Data** — Add new records into the database from Java
