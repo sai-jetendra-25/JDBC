@@ -1,0 +1,11 @@
+# IntelliJ files
+.idea/
+*.iml
+target/
+*.class
+
+# Hibernate config (has password)
+src/main/resources/hibernate.cfg.xml
+# Empty folders
+Gradle/
+Maveen/
